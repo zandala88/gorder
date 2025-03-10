@@ -5,7 +5,7 @@ import (
 )
 
 func NewViperConfig() error {
-	viper.SetConfigName("config")
+	viper.SetConfigName("global")
 	viper.SetConfigType("yaml")
 	viper.AddConfigPath("../common/config")
 	viper.AutomaticEnv()

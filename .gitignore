@@ -23,7 +23,9 @@ go.work.sum
 
 # env file
 .env
-
-/config/config.yaml
-
 .idea
+.DS_Store
+
+.gobomcache/
+**/tmp
+**/bin
